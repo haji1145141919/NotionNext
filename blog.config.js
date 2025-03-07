@@ -18,7 +18,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '成分复杂人，干活中', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.tobychannel/cn', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fpublic.notion-static.com%2F4d720682-0567-4f98-8b0c-0910de261cc3%2FImage_112704431756016.jpg?table=custom_emoji&id=1a862c47-e5cf-8045-b7e2-007a7b365bdc&spaceId=9dcb22f4-08cb-45fc-8487-1fc1aba3c3ae&width=70&userId=1a8d872b-594c-810e-afff-0002cf2fda60&cache=v2', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/public/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
 
