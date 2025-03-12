@@ -43,13 +43,6 @@ module.exports = {
       cover:
         'https://p1.music.126.net/bU_UznrJaqyaSbaaQFZCKw==/109951165687192876.jpg'
     },
-    {
-      name: 'フォールオブフォール　~ 秋めく滝',
-      artist: 'logical emotion',
-      url: 'https://music.163.com/song/media/outer/url?id=776196.mp3',
-      cover:
-        'https://p1.music.126.net/lebnxqn4hlb-_6xqYkMYuA==/885106860359941.jpg'
-    },
     { 
       name: '私が守るから -Reload-',
       artist: 'アトラスサウンドチーム',
